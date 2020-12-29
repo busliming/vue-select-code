@@ -1,0 +1,63 @@
+html {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input{-webkit-appearance:none; resize: none;}
+img {max-width: 100%;height: auto;width:auto\9; /* ie8 */border: none;}
+/* 初始化开始*/
+*{margin:0; padding:0; border:none;box-sizing:border-box;}
+body{background-color:#fff;color:#666;font:16px "Microsoft YaHei";}
+em,i,b{font-weight: normal;font-style: normal;}
+a{text-decoration:none; color:#969696;}
+a:hover{ text-decoration:none;}
+li{list-style:none; padding: 0; margin: 0;}
+h1, h2, h3, h4, h5, h6{ font-size:100%;font-weight: normal;}
+.clearfix:after{content:""; display:block; visibility:hidden; height:0; clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color:#ff806b;}
+input:-moz-placeholder, textarea:-moz-placeholder {color: #ff806b;}
+input::-moz-placeholder, textarea::-moz-placeholder {color: #ff806b;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {color: #ff806b;}
+/* 初始化结束 */
+
+/* 滚动条 */
+
+::-webkit-scrollbar-thumb:horizontal { /*水平滚动条的样式*/
+	width: 5px;
+	background: #E5EBF2;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-track-piece {
+	background: #ffffff; /*滚动条的背景颜色*/
+	-webkit-border-radius: 5px; /*滚动条的圆角宽度*/
+}
+
+::-webkit-scrollbar {
+	width: 8px; /*滚动条的宽度*/
+	height: 8px; /*滚动条的高度*/
+}
+::-webkit-scrollbar:vertical {
+	display: block;     
+	visibility: visible;
+	width: 8px; /*滚动条的宽度*/
+	height: 8px; /*滚动条的高度*/
+	background-color: #ffffff ;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:vertical { /*垂直滚动条的样式*/
+	height: 20px;
+	background: #E5EBF2;
+	-webkit-border-radius: 5px;
+	outline: none;
+	outline-offset: 0;
+	border: none;
+}
+::-webkit-scrollbar-thumb:hover { /*滚动条的hover样式*/
+	height: 20px;
+	background-color:  #D9D9D9 ;
+	-webkit-border-radius: 5px;
+}
