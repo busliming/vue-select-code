@@ -1,5 +1,7 @@
 # vant-app
 
+vue项目配置h5
+
 ## Project setup
 ```
 npm install
